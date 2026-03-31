@@ -1,3 +1,11 @@
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
 .App {
   text-align: center;
 }
@@ -35,4 +43,130 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  color: #fff;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgb(0 0 0 / 79%);
+  box-shadow: 0 10px 40px rgb(0 0 0);
+  border: 2px dotted #00c8ff;
+}
+.x-title {
+  color: #00c8ff;
+  font-weight: bold;
+}
+
+/* Titles */
+.title {
+  text-align: center;
+  color: #ffcc00;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Sections */
+.section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.note {
+  font-size: 12px;
+  background: #ffaa0015;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ffaa00;
+}
+
+/* Button */
+.btn {
+  display: block;
+  margin: auto;
+  background: linear-gradient(45deg, #ffcc00, #ffaa00);
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: rgba(255,255,255,0.2);
+  margin: 25px 0;
+}
+
+/* Wedding Section */
+.wedding-title {
+  text-align: center;
+  color: #ffcc00;
+}
+
+.invite-text {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+/* Program */
+.program h3 {
+  margin-bottom: 10px;
+}
+
+.program ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.program li {
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  text-align: center;
+}
+
+/* Venue */
+.venue {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  background: rgba(255,255,255,0.08);
+  padding: 12px;
+  border-radius: 10px;
 }
