@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tracker/static/css/main.9611ec62.css",
+    "main.js": "/tracker/static/js/main.f7a5351d.js",
+    "static/js/453.81a54d62.chunk.js": "/tracker/static/js/453.81a54d62.chunk.js",
+    "static/media/kats-weil-CLD1i8hp008-unsplash.jpg": "/tracker/static/media/kats-weil-CLD1i8hp008-unsplash.09e5cf45d675c8343c3d.jpg",
+    "index.html": "/tracker/index.html",
+    "main.9611ec62.css.map": "/tracker/static/css/main.9611ec62.css.map",
+    "main.f7a5351d.js.map": "/tracker/static/js/main.f7a5351d.js.map",
+    "453.81a54d62.chunk.js.map": "/tracker/static/js/453.81a54d62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9611ec62.css",
+    "static/js/main.f7a5351d.js"
+  ]
+}
